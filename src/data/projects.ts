@@ -1,0 +1,23 @@
+export type Project = { title: string; intro: string; image: string; stack: string[]; features: string[]; github: string; demo?: string; docs?: string };
+export const projects: Project[] = [
+{ title: "Jibon Shohayok", image: "/images/projects/jibon-shohayok.png",
+  intro: "Bangla/English AI assistant for document expiry tracking, official procedures and budget trip planning.",
+  stack: ["Python","FastAPI","CrewAI","ChromaDB","Docker"],
+  features: ["Router sends each question to one of four CrewAI agent crews","RAG over government PDFs with page citations","Budget-aware trip planner and approval-based reminders"],
+  github: "https://github.com/soumit02/Jibon-shohayok", demo: "https://jibon-shohayok.onrender.com", docs: "https://jibon-shohayok.onrender.com/docs" },
+{ title: "Leo – Multi-Agent AI Tutor", image: "/images/projects/leo.png",
+  intro: "Four AI agents teach a topic, make a quiz, grade answers and re-teach when you get them wrong.",
+  stack: ["Python","CrewAI","Streamlit","LiteLLM"],
+  features: ["Coordinator, Explainer, Quiz Master and Evaluator agents","Quiz and grading based only on the lesson given","Live agent-status dashboard with backup LLM"],
+  github: "https://github.com/soumit02/Leo-Multi-Agent-Educator", demo: "https://leo-multi-agent-educator-8dhazcbwqpu7dzwwrrc9h6.streamlit.app/" },
+{ title: "Bangla Knowledge Base Chatbot", image: "/images/projects/bangla-rag-chatbot.png",
+  intro: "RAG chatbot that answers questions about the Bangla novel Mejdidi, only from the book.",
+  stack: ["Python","LangChain","ChromaDB","BGE-M3","Streamlit"],
+  features: ["Chapters crawled from Bengali Wikisource into 139 vectors","Answers cite the chapter; says “not found” when out of scope","BGE-M3 embeddings chosen after comparing with MiniLM"],
+  github: "https://github.com/soumit02/Bangla-Knowledge-Base-Chatbot" },
+{ title: "Multi-Tasking Robot", image: "/images/projects/multi-tasking-robot.jpg",
+  intro: "Arduino robot with obstacle avoidance, line following, Bluetooth control and a smart bin. 2nd Runner-Up, Robo Expo 2.0 (2024).",
+  stack: ["Arduino","Embedded C/C++","Ultrasonic & IR Sensors","HC-05"],
+  features: ["Obstacle-avoiding and line-follower modes","Bluetooth control with a custom mobile app","Servo smart bin with LCD full-bin alert"],
+  github: "https://github.com/soumit02/Multi-Tasking-Robot" },
+];

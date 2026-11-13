@@ -1,0 +1,24 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth;background:#0b1020}
+body{background:#0b1020;color:#e2e8f0;font-family:Inter,system-ui,sans-serif}
+
+/* ---------- Hover effects & micro-interactions ---------- */
+.btn,.tag,.nav-link,.lift,.img-zoom img{transition-duration:.25s;transition-timing-function:ease}
+.btn{transition-property:background-color,color,border-color,transform,box-shadow}
+.tag{transition-property:border-color,color,background-color}
+.lift{transition-property:transform,box-shadow,border-color}
+.img-zoom img{transition-property:transform}
+.nav-link{position:relative}
+.nav-link::after{content:"";position:absolute;left:0;bottom:-6px;height:2px;width:100%;background:#38bdf8;transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+.nav-link:hover::after,.nav-link[aria-current="true"]::after{transform:scaleX(1)}
+:focus-visible{outline:2px solid #38bdf8;outline-offset:3px;border-radius:4px}
+.btn:active{transform:scale(.98)}
+/* Hover-only effects: skipped on touch screens */
+@media (hover:hover) and (pointer:fine){
+  .btn:hover{transform:translateY(-1px) scale(1.03)}
+  .tag:hover{border-color:rgba(56,189,248,.5);color:#fff}
+  .lift:hover{transform:translateY(-4px);border-color:rgba(56,189,248,.4);box-shadow:0 14px 28px -14px rgba(0,0,0,.6),0 0 0 1px rgba(56,189,248,.12)}
+  .lift-lg:hover{transform:translateY(-6px) scale(1.015);box-shadow:0 20px 40px -16px rgba(0,0,0,.7),0 0 0 1px rgba(56,189,248,.2)}
+  .img-zoom:hover img{transform:scale(1.04)}
+}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
