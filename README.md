@@ -4,7 +4,7 @@ A modern, responsive, dark-themed portfolio website that presents my projects, r
 
 ## Live Website
 
-**[https://YOUR-PORTFOLIO-URL.vercel.app](https://YOUR-PORTFOLIO-URL.vercel.app)**
+**[https://soumit-portfolio.vercel.app](https://soumit-portfolio.vercel.app)**
 
 > Replace this link with your real Vercel URL after deployment.
 
@@ -15,10 +15,6 @@ I am a Computer Science and Engineering graduate from the University of Asia Pac
 I also have an Embedded Systems and IoT background. I built an Arduino-based robot that won 2nd Runner-Up at Robo Expo 2.0, delivered two technical workshops as a trainer at eChithi, and presented my Smart-GaitBox research at IEEE MARSCON 2026.
 
 I am looking for AI Engineering, Machine Learning, Generative AI and Software Engineering roles.
-
-- LinkedIn: [soumit-dey](https://www.linkedin.com/in/soumit-dey-b6632827a/)
-- GitHub: [soumit02](https://github.com/soumit02)
-- Email: soumitdey2002@gmail.com
 
 ## Key Features
 
@@ -81,7 +77,7 @@ portfolio/
 Requires [Node.js](https://nodejs.org) 20 or newer.
 
 ```bash
-git clone https://github.com/soumit02/portfolio.git
+git clone https://github.com/soumit02/soumit-portfolio.git
 cd portfolio
 npm install
 npm run dev
