@@ -12,17 +12,17 @@ export const certifications = [
   { title: "Robo Expo 2.0 – Project Showcasing (2nd Runner-Up)", by: "University of Asia Pacific", date: "2024", url: "https://drive.google.com/file/d/1srYH8Ad_gWYbgMeZBMzB5LAHB7kIip-S/view?usp=sharing" },
   { title: "Smart-GaitBox Research Presentation", by: "IEEE MARSCON 2026", date: "August 2026", url: "https://drive.google.com/file/d/1z5_Z8A7vc4WhmM9Clr5B17Pd_i6qt0HZ/view?usp=sharing" } ];
 export const skills: Record<string, string[]> = {
-  "Programming Languages": ["Python","C","C++","SQL","JavaScript","HTML","CSS"],
+  "Programming Languages": ["Python","C","C++","SQL","HTML","CSS"],
   "AI & Machine Learning": ["Machine Learning","Object Detection","Model Fine-Tuning","Text Embeddings","Semantic Search"],
-  "Generative AI & LLM Apps": ["Prompt Engineering","Tool Calling","Text-to-SQL","LLM Fallback","Groq API","OpenAI-compatible APIs","Gemini Embeddings","LiteLLM"],
+  "Generative AI & LLM Apps": ["Prompt Engineering","Tool Calling","Text-to-SQL","LLM Fallback","Groq API","OpenAI-compatible APIs","Gemini Embeddings"],
   "AI Agents & Multi-Agent": ["CrewAI","LangChain (AgentExecutor)","Hierarchical & Sequential Orchestration","Human-in-the-Loop"],
   "RAG & Vector Databases": ["RAG","ChromaDB","BAAI/bge-m3","Sentence-Transformers","Document Chunking","Source Citation"],
   "Computer Vision & NLP": ["YOLO (YOLOv11, Ultralytics)","NLP","Bangla & Multilingual Text"],
-  "Backend & APIs": ["FastAPI","REST APIs","JWT","Swagger/OpenAPI","SQLAlchemy","APScheduler","Redis","Nginx","Streamlit"],
+  "Backend & APIs": ["FastAPI","REST APIs","Swagger/OpenAPI","SQLAlchemy","Redis","Nginx","Streamlit"],
   "Databases": ["SQLite","PostgreSQL","SQLAlchemy","ChromaDB","Redis","Pandas"],
   "DevOps & Deployment": ["Docker","Docker Compose","Render","Railway","Streamlit Community Cloud","Git","GitHub"],
-  "IoT & Embedded": ["Arduino UNO","ESP01S","Arduino IDE","Embedded C/C++","Ultrasonic & IR Sensors","HC-05","Motor Drivers","LCD"],
-  "Developer Tools": ["Postman","Jupyter","VS Code","Tavily Search API","Hugging Face Datasets","Canva"] };
+  "IoT & Embedded": ["Arduino UNO","ESP01S","ESP32","Arduino IDE","Embedded C/C++","Ultrasonic & IR Sensors","HC-05","Motor Drivers","LCD"],
+  "Developer Tools": ["Postman","Jupyter","VS Code","Tavily Search API","Hugging Face Datasets"] };
 export const awards = [
   { count: "5×", title: "Vice-Chancellor's Award", by: "University of Asia Pacific", url: "https://drive.google.com/drive/folders/10wmP9YT8C1jrCo_jr6EeYS5E6tZ4tbsA?usp=sharing" },
   { count: "3×", title: "Dean's Award", by: "University of Asia Pacific", url: "https://drive.google.com/drive/folders/1urRgJANaQaII-gOHCKKi786gXQGEBH1c?usp=sharing" },

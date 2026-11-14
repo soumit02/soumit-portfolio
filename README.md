@@ -6,7 +6,6 @@ A modern, responsive, dark-themed portfolio website that presents my projects, r
 
 **[https://soumit-portfolio.vercel.app](https://soumit-portfolio.vercel.app)**
 
-> Replace this link with your real Vercel URL after deployment.
 
 ## About Me
 
