@@ -8,9 +8,9 @@ export const research = { title: "Smart-GaitBox: A Universal IoT Device for FoG 
 export const experience = { role: "System Support Executive (Intern)", org: "eChithi, Bogura, Bangladesh", period: "July 2025 – September 2025",
   points: ["Prepared slides, demonstration kits and practice files for Embedded Systems and IoT training (Arduino UNO, ESP01S)","Created training documentation","Coordinated events and participant communication; evaluated student performance and collected feedback","Introduced structured assessment methods and maintained post-event documentation","Delivered two hands-on workshops as trainer: Fundamentals of Embedded Programming with Arduino UNO (21 Aug 2025) and IoT Application Building Using ESP01S (17 Sep 2025), 2.5 hours each, at University of Asia Pacific"] };
 export const certifications = [
+  { title: "AI Engineering Bootcamp", by: "Ostad", date: "2026", url: "https://drive.google.com/file/d/1LMqPnac9ju4ilba20073EJrfH5impq-z/view?usp=sharing" },
   { title: "Machine Learning Course Completion", by: "Research and Publication Unit, CSE, University of Asia Pacific", date: "July 2023", url: "https://drive.google.com/file/d/1sSW7Qlh0qJxqxe-2TnA2Eq6s5xx5vAMZ/view?usp=sharing" },
-  { title: "Robo Expo 2.0 – Project Showcasing (2nd Runner-Up)", by: "University of Asia Pacific", date: "2024", url: "https://drive.google.com/file/d/1srYH8Ad_gWYbgMeZBMzB5LAHB7kIip-S/view?usp=sharing" },
-  { title: "Smart-GaitBox Research Presentation", by: "IEEE MARSCON 2026", date: "August 2026", url: "https://drive.google.com/file/d/1z5_Z8A7vc4WhmM9Clr5B17Pd_i6qt0HZ/view?usp=sharing" } ];
+  { title: "Robo Expo 2.0 – Project Showcasing (2nd Runner-Up)", by: "University of Asia Pacific", date: "2024", url: "https://drive.google.com/file/d/1srYH8Ad_gWYbgMeZBMzB5LAHB7kIip-S/view?usp=sharing" } ];
 export const skills: Record<string, string[]> = {
   "Programming Languages": ["Python","C","C++","SQL","HTML","CSS"],
   "AI & Machine Learning": ["Machine Learning","Object Detection","Model Fine-Tuning","Text Embeddings","Semantic Search"],
